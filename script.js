@@ -66,11 +66,11 @@ btnHoldEl.addEventListener('click', function () {
   } else {
     // 1- player--winner
     document
-      .querySelector(`player--${activePlayer}`)
+      .querySelector(`.player--${activePlayer}`)
       .classList.add('player--winner');
 
     document
-      .querySelector(`player--${activePlayer}`)
+      .querySelector(`.player--${activePlayer}`)
       .classList.remove('player--active');
   }
   // finish the game
