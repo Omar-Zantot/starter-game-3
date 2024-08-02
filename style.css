@@ -169,3 +169,162 @@ main {
 .hidden {
   display: none;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 425px) {
+  main {
+    width: 90%;
+    height: 30rem;
+  }
+
+  .player {
+    padding: 3rem;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .score {
+    font-size: 3rem;
+  }
+
+  .current {
+    padding: 0.8rem;
+  }
+
+  .current-label {
+    font-size: 0.8rem;
+  }
+
+  .current-score {
+    font-size: 1.7rem;
+  }
+
+  .btn {
+    font-size: 0.5rem;
+    padding: 0.1rem 0.5rem;
+  }
+
+  .dice {
+    height: 4rem;
+    top: 13rem;
+  }
+
+  .btn--new {
+    top: 8rem;
+  }
+
+  .btn--roll {
+    top: 20.3rem;
+  }
+
+  .btn--hold {
+    top: 25.1rem;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  main {
+    width: 70rem;
+    height: 45rem;
+  }
+
+  .player {
+    padding: 6rem;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .score {
+    font-size: 6rem;
+  }
+
+  .current {
+    padding: 1.5rem;
+  }
+
+  .current-label {
+    font-size: 1.5rem;
+  }
+
+  .current-score {
+    font-size: 3rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .dice {
+    height: 8rem;
+  }
+
+  .btn--new {
+    top: 3rem;
+  }
+
+  .btn--roll {
+    top: 30.3rem;
+  }
+
+  .btn--hold {
+    top: 36.1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    width: 90rem;
+    height: 50rem;
+  }
+
+  .player {
+    padding: 7rem;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .score {
+    font-size: 6rem;
+  }
+
+  .current {
+    padding: 1.5rem;
+  }
+
+  .current-label {
+    font-size: 1.5rem;
+  }
+
+  .current-score {
+    font-size: 3rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .dice {
+    height: 8rem;
+  }
+
+  .btn--new {
+    top: 3rem;
+  }
+
+  .btn--roll {
+    top: 30.3rem;
+  }
+
+  .btn--hold {
+    top: 36.1rem;
+  }
+}
